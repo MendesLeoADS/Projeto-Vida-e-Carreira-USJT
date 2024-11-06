@@ -1,0 +1,147 @@
+/*Estilo Geral do Portifólio*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Nerko One",sans-serif;
+        
+       }
+
+body{
+   background-color: #ffffffe3;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo-img{
+    width: 250px;
+    height: auto;
+    }
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #5f023be3;
+    color: #ffffff;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn-contato1 button{
+    padding: 10px 25px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #5f023be3;
+    color: #ffffff;
+    border: 0;
+    border-radius: 350px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+h2.título{
+    color:#523802;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.título span{
+    color:#0bd33d;    
+}
+
+button:hover{
+    box-shadow: 0px 0px 25px hsl(125, 100%, 55%);
+    transform: scale(1.20);
+    
+}
+
+/* Estilo do Cabeçalho */
+
+header {
+    padding: 40px 4%;
+    }
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #775b26;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #ca108c;
+    transform: scale(1.50);
+    transition: .2s;
+
+}
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* ESTILO DO TIPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+   align-items: center;
+   justify-content: center;
+   gap: 0px;
+   
+}
+
+.topo-do-site h1{
+   color:#5f023be3; 
+   font-size: 45px;
+   line-height: 60px;
+   
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color:hsla(0, 0%, 2%, 0.89);
+}
+
+.topo-do-site .txt-topo-site p{
+    color:hsla(24, 94%, 13%, 0.89);
+    margin: 40px 0px;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 33px;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    top: 0;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}  
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
